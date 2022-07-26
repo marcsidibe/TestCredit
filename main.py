@@ -78,7 +78,7 @@ df_encoded=pd.concat([df_cat, df_num], axis= 1)
   #  donnee_entree=pd.concat([dummy,donnee_entree], axis=1)
    # del donnee_entree[col]
 
-st.write(df_encoded)
+#st.write(df_encoded)
 
 #Prendre uniquement la premiere ligne
 df_encoded=df_encoded[:1]
